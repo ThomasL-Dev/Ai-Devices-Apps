@@ -1,0 +1,11 @@
+com/dante/ai/Socket_Handler.java
+ com.dante.ai.Socket_Handler
+com/dante/ai/SendMessage.java
+ com.dante.ai.SendMessage
+com/dante/ai/Socket_Service.java
+ com.dante.ai.Socket_Service
+ com.dante.ai.Socket_Service$1
+com/dante/ai/BuildConfig.java
+ com.dante.ai.BuildConfig
+com/dante/ai/MainActivity.java
+ com.dante.ai.MainActivity

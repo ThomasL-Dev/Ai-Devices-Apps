@@ -1,0 +1,39 @@
+:root {
+  --infos-bg-color: #272727;
+  --infos-title-color: beige;
+  --sep-col: #36d2f51a;
+}
+
+/* div infos */
+.infos{
+    background-color: var(--infos-bg-color);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* info title */
+.infos-title{
+    margin: 0;
+    text-align: center;
+    color: var(--infos-title-color);
+}
+
+/* info infos */
+.infos h5{
+    margin: 0;
+    margin-top: 20px;
+}
+
+
+.disk-info{
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+/* separator */
+.infos-sep{
+    margin-bottom: 10px;
+    border-color: var(--sep-col);
+}

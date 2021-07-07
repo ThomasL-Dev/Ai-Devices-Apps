@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/optionsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/close_opt_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="6dp"
+
+        android:layout_marginBottom="279dp"
+        android:width="200dp"
+        android:background="@drawable/bottom_button"
+        android:clickable="false"
+        android:isScrollContainer="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.977"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/activity_rounded"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/serv_ip_lab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Server Ip"
+                        android:textColor="@color/cyan" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <EditText
+                        android:id="@+id/editIp"
+                        android:layout_width="147dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:background="@color/darker_cyan"
+                        android:ems="10"
+                        android:hint="ex : 0.0.0.0"
+                        android:inputType="textPersonName"
+                        android:shadowColor="@color/bg_prim"
+                        android:textColor="@color/cyan"
+                        android:textColorHint="@color/dark_cyan" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/serv_port_lab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Server Port"
+                        android:textColor="@color/cyan" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <EditText
+                        android:id="@+id/editPort"
+                        android:layout_width="147dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/darker_cyan"
+                        android:ems="10"
+                        android:hint="ex : 33000"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/cyan"
+                        android:textColorHint="@color/dark_cyan" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/serv_url_lab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Server Url"
+                        android:textColor="@color/cyan" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <EditText
+                        android:id="@+id/editUrl"
+                        android:layout_width="147dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:background="@color/darker_cyan"
+                        android:ems="10"
+                        android:hint="ex : http://url"
+                        android:inputType="textPersonName"
+                        android:shadowColor="@color/bg_prim"
+                        android:textColor="@color/cyan"
+                        android:textColorHint="@color/dark_cyan" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/user_token_lab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="User Token"
+                        android:textColor="@color/cyan" />
+
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <EditText
+                        android:id="@+id/editToken"
+                        android:layout_width="147dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:background="@color/darker_cyan"
+                        android:ems="10"
+                        android:hint="ex : token"
+                        android:inputType="textPersonName"
+                        android:shadowColor="@color/bg_prim"
+                        android:textColor="@color/cyan"
+                        android:textColorHint="@color/dark_cyan" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/update_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="@drawable/bottom_button"
+                android:text="update"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

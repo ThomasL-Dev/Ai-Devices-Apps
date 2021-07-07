@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dante.jarvis"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:6:5-66
+11-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:7:5-78
+12-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:8:5-75
+13-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:11:5-80
+14-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:11:22-77
+15    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+15-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:12:5-72
+15-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:12:22-69
+16    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+16-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:15:5-88
+16-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:15:22-85
+17    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+17-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:16:5-90
+17-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:16:22-87
+18
+19    <application
+19-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:19:5-46:19
+20        android:allowBackup="true"
+20-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:20:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] /home/thomas/.gradle/caches/transforms-2/files-2.1/73530a2d0c1df4b3085807c82555ce12/core-1.1.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@drawable/icon"
+23-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:22:9-38
+24        android:label="@string/app_name"
+24-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:21:9-41
+25        android:roundIcon="@drawable/icon"
+25-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:23:9-43
+26        android:supportsRtl="true"
+26-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:24:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:25:9-40
+29        <activity
+29-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:28:9-40:20
+30            android:name="com.dante.jarvis.MainActivity"
+30-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:28:19-47
+31            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+31-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:29:19-75
+32            <intent-filter>
+32-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:32:13-37:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:33:17-69
+33-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:33:25-66
+34
+35                <category android:name="android.intent.category.HOME" />
+35-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:34:17-72
+35-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:34:27-70
+36                <category android:name="android.intent.category.DEFAULT" />
+36-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:35:17-75
+36-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:35:27-73
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:36:17-76
+37-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:36:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:42:9-44:20
+41            android:name="com.dante.jarvis.AppsListActivity"
+41-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:42:19-51
+42            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+42-->/home/thomas/Documents/#JARVIS/Projet Android jarvis/Jarvis Old app (not launcher)/app/src/main/AndroidManifest.xml:43:19-77
+43        </activity>
+44    </application>
+45
+46</manifest>

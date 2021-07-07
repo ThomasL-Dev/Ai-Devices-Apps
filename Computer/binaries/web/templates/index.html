@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="icon" href="{{ static_url('img/icon.png') }}"/>
+
+    <link rel="stylesheet" href="{{ static_url('css/main.css') }}">
+    <link rel="stylesheet" href="{{ static_url('css/top-menu.css') }}">
+    <link rel="stylesheet" href="{{ static_url('css/body.css') }}">
+
+	<link rel="stylesheet" href="{{ static_url('css/index.css') }}">
+
+    <script src="{{ static_url('js/horloge.js') }}"></script>
+
+    <title>{{ dev_name }}</title>
+</head>
+
+<body onload="startHorloge()">
+
+    <div class="body-container">
+
+
+        <!-- TOP MENU -->
+        <div class="top-menu-container">
+
+            <div class="top-menu">
+
+
+                <div class="title-top-menu" onclick="window.location.href='/'">
+
+                    <img src="{{ static_url('img/icon.png') }}">
+
+                    <h3>{{ dev_name }}</h3>
+                </div>
+
+
+                <div class="btns-top-menu">
+                    <button class="btn-top-menu" onclick="window.location.href='/screen'">Screen</button>
+                    <button class="btn-top-menu" onclick="window.location.href='/processus'">Processus</button>
+                    <button class="btn-top-menu" onclick="window.location.href='/shutdown'">Shutdown</button>
+                    <button class="btn-top-menu" onclick="window.location.href='/restart'">Restart</button>
+                </div>
+
+
+            </div>
+            
+        </div>
+
+
+
+        <!-- BODY -->
+        <div class="body">
+
+            <div class="content-container">
+
+                <div class="content">
+                    <!-- CONTENT -->
+                    <div class="infos">
+                        <h4 class="infos-title"> User Infos </h4>
+                        <hr class="infos-sep">
+                        <h5>User connected : {{ connected_user.capitalize() }}</h5>
+                        <h5>User connected since : {{ user_connected_since }}</h5>
+                    </div>
+
+                    <div class="infos">
+                        <h4 class="infos-title"> System Infos </h4>
+                        <hr class="infos-sep">
+                        <h5>Os : {{ device_os }}</h5>
+                        <h5>Ip : {{ device_ip }}</h5>
+                        <h5>Started since : {{ device_booted_since }}</h5>
+                        <h5>Version : {{ device_version }}</h5>
+                        <h5>Architecture : {{ os_architecture }}</h5>
+                    </div>
+
+                    <div class="infos">
+                        <h4 class="infos-title"> Processor Infos </h4>
+                        <hr class="infos-sep">
+                        <h5>Usage : {{ cpu_usage }}</h5>
+                        <h5>Architecture : {{ cpu_architecture }}</h5>
+                        <h5>Logical cpu : {{ cpu_count }}</h5>
+                    </div>
+
+                    <div class="infos">
+                        <h4 class="infos-title"> Ram Infos </h4>
+                        <hr class="infos-sep">
+                        <h5>Used : {{ ram_used }}</h5>
+                        <h5>Free : {{ ram_free }}</h5>
+                    </div>
+
+                    <div class="infos">
+                        <h4 class="infos-title"> Disks Infos </h4>
+                        <hr class="infos-sep">
+                        {% for disk in disk_list %}
+                            <h5>Mount Point : '{{ disk.name }}'</h5>
+                            <h6 class="disk-info">Used : {{ disk.used }}</h6>
+                            <h6 class="disk-info">Free : {{ disk.free }}</h6>
+                            <h6 class="disk-info">Total : {{ disk.total }}</h6>
+                        {% end %}
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        
+
+    </div>
+
+
+    <!-- horloge -->
+    <div id="horloge">00:00:00</div>
+
+    <!-- version -->
+    <div id="version">version : {{ version }}</div>
+
+
+</body>
+
+</html>

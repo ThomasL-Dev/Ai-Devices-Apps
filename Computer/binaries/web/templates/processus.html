@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="icon" href="{{ static_url('img/icon.png') }}"/>
+
+    <link rel="stylesheet" href="{{ static_url('css/main.css') }}">
+    <link rel="stylesheet" href="{{ static_url('css/top-menu.css') }}">
+    <link rel="stylesheet" href="{{ static_url('css/body.css') }}">
+
+	<link rel="stylesheet" href="{{ static_url('css/process.css') }}">
+
+    <script src="{{ static_url('js/horloge.js') }}"></script>
+
+    <title>{{ dev_name }} - Processus</title>
+</head>
+
+<body onload="startHorloge()">
+
+    <div class="body-container">
+
+
+        <!-- TOP MENU -->
+        <div class="top-menu-container">
+
+            <div class="top-menu">
+
+
+                <div class="title-top-menu" onclick="window.location.href='/'">
+
+                    <img src="{{ static_url('img/icon.png') }}">
+
+                    <h3>{{ dev_name }}</h3>
+                </div>
+
+
+                <div class="btns-top-menu">
+                    <button class="btn-top-menu" onclick="window.location.href='/screen'">Screen</button>
+                    <button class="btn-top-menu" onclick="window.location.href='/processus'">Processus</button>
+                    <button class="btn-top-menu" onclick="window.location.href='/shutdown'">Shutdown</button>
+                    <button class="btn-top-menu" onclick="window.location.href='/restart'">Restart</button>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- BODY -->
+        <div class="body">
+
+            <div class="content-container">
+
+                <div class="content">
+                    <!-- CONTENT -->
+                    {% for process in process_list %}
+
+                        <div class="process-infos" id="infos-{{ process.name }}">
+
+                            <h5 class="name">Process name : {{ process.name }}</h5>
+                            <h5 class="pid">PID : {{ process.pid }}</h5>
+
+                            <form method="post">
+                                <input class="form-value" type="hidden" name="name-value" value="{{ process.name }}">
+                                <input type="submit" name="terminate" value="X" class="terminate-process" onclick='alert_{{ process.name.replace(".exe", "").replace("-", "_") }}()'>
+                            </form>
+
+                            <script>
+                                function alert_{{ process.name.replace(".exe", "").replace("-", "_") }}(){
+                                    alert("Process '{{ process.name }}' terminated");
+                                }
+                            </script>
+
+                        </div>
+
+                        <hr class="infos-sep">
+
+                    {% end %}
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <!-- horloge -->
+    <div id="horloge">00:00:00</div>
+
+
+
+
+</body>
+
+</html>

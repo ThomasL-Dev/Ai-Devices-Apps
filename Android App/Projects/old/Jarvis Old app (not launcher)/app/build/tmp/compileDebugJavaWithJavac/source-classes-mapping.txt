@@ -1,0 +1,4 @@
+com/dante/jarvis/OnSwipeTouchListener.java
+ com.dante.jarvis.OnSwipeTouchListener
+ com.dante.jarvis.OnSwipeTouchListener$1
+ com.dante.jarvis.OnSwipeTouchListener$GestureListener

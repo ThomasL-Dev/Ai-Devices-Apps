@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dante.jarvis"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:7:5-66
+11-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:8:5-78
+12-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:8:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:9:5-75
+13-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:9:22-73
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:12:5-80
+14-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:12:22-77
+15    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+15-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:13:5-72
+15-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:13:22-69
+16    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+16-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:16:5-88
+16-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:16:22-85
+17    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+17-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:17:5-90
+17-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:17:22-87
+18
+19    <application
+19-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:20:5-58:19
+20        android:allowBackup="true"
+20-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:21:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] C:\Users\Thomas\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@drawable/icon"
+23-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:22:9-38
+24        android:label="@string/app_name"
+24-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:23:9-41
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:24:9-40
+26        <activity
+26-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:27:9-50:20
+27            android:name="com.dante.jarvis.MainActivity"
+27-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:29:13-57
+28            android:clearTaskOnLaunch="true"
+28-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:32:13-45
+29            android:label="@string/app_name"
+29-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:30:13-45
+30            android:launchMode="singleTask"
+30-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:31:13-44
+31            android:stateNotNeeded="true"
+31-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:33:13-42
+32            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+32-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:28:13-83
+33
+34            <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+35
+36            <intent-filter>
+36-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:37:13-40:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:38:17-69
+37-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:38:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:39:17-77
+39-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:39:27-74
+40            </intent-filter>
+41            <intent-filter>
+41-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:43:13-47:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:38:17-69
+42-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:38:25-66
+43
+44                <category android:name="android.intent.category.HOME" />
+44-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:45:17-73
+44-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:45:27-70
+45                <category android:name="android.intent.category.DEFAULT" />
+45-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:46:17-76
+45-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:46:27-73
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:53:9-55:20
+49            android:name="com.dante.jarvis.ConsoleActivity"
+49-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:53:19-50
+50            android:theme="@style/TransparentCompat" >
+50-->C:\Users\Thomas\AndroidStudioProjects\Jarvis\app\src\main\AndroidManifest.xml:54:13-53
+51        </activity>
+52    </application>
+53
+54</manifest>

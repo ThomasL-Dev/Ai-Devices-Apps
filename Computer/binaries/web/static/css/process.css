@@ -1,0 +1,63 @@
+:root {
+  --sep-col: #36d2f51a;
+}
+
+.process-infos{
+    background-color: #272727;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+form{
+    width: fit-content;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+/* values from form */
+#form-value{
+    display: none;
+}
+
+
+.process-infos .name{
+    width: fit-content;
+}
+
+.process-infos .pid{
+    position: sticky;
+    width: fit-content;
+    left: 50%;
+}
+
+
+.terminate-process{
+    position: sticky;
+    left: 99%;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: None;
+    background-color: red;
+    color: beige;
+}
+.terminate-process:hover{
+    background-color: #ff00004a;
+}
+
+/* separator */
+.infos-sep{
+    margin-bottom: 10px;
+    border-color: var(--sep-col);
+}
+
+
+.process-infos h5{
+    display: inline-block;
+    margin: 0;
+    width: 90%;
+}

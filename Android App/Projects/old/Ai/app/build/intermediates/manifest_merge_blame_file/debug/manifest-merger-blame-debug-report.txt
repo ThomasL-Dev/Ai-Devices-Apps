@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dante.ai"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:6:5-81
+11-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:8:5-66
+12-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:9:5-78
+13-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:10:5-75
+14-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:10:22-73
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:13:5-80
+15-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:13:22-77
+16    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+16-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:14:5-72
+16-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:14:22-69
+17    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+17-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:17:5-88
+17-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:17:22-85
+18    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+18-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:18:5-90
+18-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:18:22-87
+19    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+19-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:20:5-78
+19-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:20:22-75
+20
+21    <application
+21-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:23:5-57:19
+22        android:allowBackup="true"
+22-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:24:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] /home/thomas/.gradle/caches/transforms-2/files-2.1/73530a2d0c1df4b3085807c82555ce12/core-1.1.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/icon"
+25-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:25:9-36
+26        android:label="@string/app_name"
+26-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:26:9-41
+27        android:roundIcon="@mipmap/icon"
+27-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:27:9-41
+28        android:supportsRtl="true"
+28-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:28:9-35
+29        android:theme="@style/MyTransparentTheme" >
+29-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:29:9-50
+30        <activity android:name="com.dante.ai.MainActivity" >
+30-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:33:9-42:20
+30-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:33:19-47
+31            <intent-filter>
+31-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:35:13-40:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:37:17-69
+32-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:37:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:38:17-77
+34-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:38:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <service android:name="com.dante.ai.Socket_Service" >
+38-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:46:9-54:19
+38-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:46:18-60
+39            <intent-filter>
+39-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:48:13-52:29
+40                <action android:name="android.intent.action.BOOT_COMPLETED" />
+40-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:50:17-79
+40-->/home/thomas/AndroidStudioProjects/Ai/app/src/main/AndroidManifest.xml:50:25-76
+41            </intent-filter>
+42        </service>
+43    </application>
+44
+45</manifest>

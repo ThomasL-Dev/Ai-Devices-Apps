@@ -1,0 +1,4 @@
+#Tue May 25 22:04:50 CEST 2021
+base.0=/home/thomas/Documents/AI/Devices App/Android App/Projects/Voice To AI/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

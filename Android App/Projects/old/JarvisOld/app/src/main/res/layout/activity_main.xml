@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dante.jarvis.HomeView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#101010"
+	tools:context=".MainActivity"
+	android:id="@+id/home_view">
+
+
+	<!--TITLE -->
+
+	<TextView
+		android:id="@+id/labelConnectedTo"
+		android:layout_width="222dp"
+		android:layout_height="39dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginStart="7dp"
+		android:layout_marginLeft="17dp"
+		android:layout_marginTop="30dp"
+		android:layout_marginEnd="182dp"
+		android:layout_marginRight="172dp"
+		android:layout_marginBottom="598dp"
+		android:gravity="center|left"
+		android:text="labelConnectedTo"
+		android:textColor="#00c2ff" />
+
+	<TextView
+		android:id="@+id/labelMs"
+		android:layout_width="133dp"
+		android:layout_height="45dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginStart="259dp"
+		android:layout_marginLeft="259dp"
+		android:layout_marginTop="30dp"
+		android:layout_marginEnd="19dp"
+		android:layout_marginRight="19dp"
+		android:layout_marginBottom="589dp"
+		android:gravity="center"
+		android:text="labelMs"
+		android:textColor="#00c2ff" />
+
+	<LinearLayout
+		android:id="@+id/titleLayout"
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:background="#000000"
+		android:orientation="horizontal">
+
+		<ImageView
+			android:id="@+id/imageView"
+			android:layout_width="35dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="0"
+			android:src="@drawable/icon" />
+
+		<TextView
+			android:id="@+id/titleLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:background="#00FFFFFF"
+			android:gravity="center|left"
+			android:text="@string/app_name"
+			android:textColor="#00C2FF" />
+
+		<TextView
+			android:id="@+id/kbpsLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:background="#00FFFFFF"
+			android:gravity="center"
+			android:text="kbps"
+			android:textColor="#00C2FF" />
+
+		<TextView
+			android:id="@+id/timeLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:background="#00FFFFFF"
+			android:gravity="center"
+			android:text="time"
+			android:textColor="#00C2FF" />
+	</LinearLayout>
+
+
+
+	<!-- SLIDING DRAWER -->
+	<SlidingDrawer
+		android:id="@+id/slidingDrawerOption"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:content="@+id/slidingContentOption"
+		android:handle="@+id/handlerOption"
+		android:orientation="horizontal"
+		tools:ignore="MissingConstraints">
+
+		<ImageView
+			android:id="@+id/handlerOption"
+			android:layout_width="30dp"
+			android:layout_height="match_parent"
+			android:orientation="horizontal"
+			android:src="@drawable/transparent" />
+
+		<LinearLayout
+			android:id="@+id/slidingContentOption"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#CD0C0C0C"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="45dp"
+				android:orientation="horizontal">
+
+				<ImageButton
+					android:id="@+id/btnConsole"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_marginTop="5dp"
+					android:layout_marginRight="85dp"
+					android:background="#00FFFFFF"
+					android:src="@drawable/console" />
+
+				<Switch
+					android:id="@+id/switchWallpaper"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_marginTop="5dp"
+					android:text="Active Wallpaper"
+					android:textColor="#00c2ff" />
+			</LinearLayout>
+
+			<EditText
+				android:id="@+id/entryIpOption"
+				android:layout_width="match_parent"
+				android:layout_height="80dp"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="250dp"
+				android:layout_marginRight="20dp"
+				android:layout_weight="0"
+				android:inputType="textPersonName"
+				android:hint="Ip"
+				android:textColor="#00c2ff"
+				android:textColorHighlight="#00c2ff"
+				android:textColorLink="#00c2ff" />
+
+
+			<EditText
+				android:id="@+id/entryPortOption"
+				android:layout_width="match_parent"
+				android:layout_height="80dp"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="10dp"
+				android:layout_marginRight="20dp"
+				android:layout_weight="0"
+				android:inputType="textPersonName"
+				android:hint="Port"
+				android:textColor="#00c2ff"
+				android:textColorHighlight="#00c2ff"
+				android:textColorLink="#00c2ff" />
+
+
+			<ImageButton
+				android:id="@+id/saveButtonOption"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_marginTop="10dp"
+				android:background="#E8090909"
+				android:src="@drawable/send" />
+
+			<Space
+				android:layout_width="match_parent"
+				android:layout_height="50dp" />
+
+		</LinearLayout>
+
+	</SlidingDrawer>
+
+
+
+	<SlidingDrawer
+		android:id="@+id/appdrawer"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:content="@+id/contentAppdrawer"
+		android:handle="@+id/handleAppdrawer">
+
+
+		<ImageView
+			android:id="@+id/handleAppdrawer"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:background="@drawable/transparent" />
+
+
+		<GridView
+			android:id="@+id/contentAppdrawer"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#AD000000"
+			android:columnWidth="50dp"
+			android:gravity="center"
+			android:horizontalSpacing="30dp"
+			android:numColumns="auto_fit"
+			android:paddingLeft="25dp"
+			android:paddingTop="25dp"
+			android:paddingRight="25dp"
+			android:stretchMode="columnWidth"
+			android:verticalSpacing="25dp">
+
+		</GridView>
+
+	</SlidingDrawer>
+
+	<!-- trash -->
+	<ImageView
+		android:id="@+id/trash"
+		android:layout_width="25dp"
+		android:layout_height="20dp"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="50dp"
+		android:src="@drawable/trash"
+		android:visibility="gone" />
+
+
+</com.dante.jarvis.HomeView>

@@ -1,0 +1,197 @@
+##############################
+### [ LOGS DU 06/06/2021 ] ###
+##############################
+
+
+[06/06/2021-14:10:53][LOG] STARTED
+
+[06/06/2021-14:10:53][LOG] Version : 0.0.1.1
+[06/06/2021-14:10:53][LOG] --- DEVICE INFOS ---
+[06/06/2021-14:10:53][LOG] Device name : DESKTOP-V92JLQM
+[06/06/2021-14:10:53][LOG] Device ip : 192.168.1.21
+[06/06/2021-14:10:53][LOG] Device os : Windows
+[06/06/2021-14:10:53][LOG] Device release : 10
+[06/06/2021-14:10:53][LOG] Device version : 10.0.19041
+[06/06/2021-14:10:53][LOG] Device architecture : AMD64
+[06/06/2021-14:10:53][LOG] Device processor architecture : Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+[06/06/2021-14:10:53][LOG] Device connected user : Thomas
+[06/06/2021-14:10:53][LOG] Device user connected since : 13:50:29 06/06/2021
+[06/06/2021-14:10:53][LOG] Device booted since : 13:49:09 06/06/2021
+[06/06/2021-14:10:53][LOG] --------------------
+[06/06/2021-14:10:53][INFO] Connexion au serveur : 1.1.1.1:33000
+[06/06/2021-14:10:58][Server Connection ERROR] Impossible de se connecté au serveur : 1.1.1.1:33000 -- Error : timed out
+[06/06/2021-14:10:58][LOG] Network Handler started
+[06/06/2021-14:10:58][LOG] Device Infos Handler started
+[06/06/2021-14:10:58][LOG] FTP Handler started
+[06/06/2021-14:10:58][LOG] Processus Handler started
+[06/06/2021-14:10:58][LOG] Mouse Handler started
+[06/06/2021-14:10:58][INFO] Connecté à internet
+[06/06/2021-14:10:58][LOG] Screenshot Handler started
+[06/06/2021-14:10:58][LOG] AI Server Connection Handler started
+[06/06/2021-14:10:58][LOG] Web Handler started
+[06/06/2021-14:10:58][LOG] Keyboard Handler started
+[06/06/2021-14:10:58][LOG] Disks Handler started
+[06/06/2021-14:10:59][INFO] Reconnection au serveur
+
+[06/06/2021-14:11:35][LOG] STARTED
+
+[06/06/2021-14:11:35][LOG] Version : 0.0.1.1
+[06/06/2021-14:11:35][LOG] --- DEVICE INFOS ---
+[06/06/2021-14:11:35][LOG] Device name : DESKTOP-V92JLQM
+[06/06/2021-14:11:35][LOG] Device ip : 192.168.1.21
+[06/06/2021-14:11:35][LOG] Device os : Windows
+[06/06/2021-14:11:35][LOG] Device release : 10
+[06/06/2021-14:11:35][LOG] Device version : 10.0.19041
+[06/06/2021-14:11:35][LOG] Device architecture : AMD64
+[06/06/2021-14:11:35][LOG] Device processor architecture : Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+[06/06/2021-14:11:35][LOG] Device connected user : Thomas
+[06/06/2021-14:11:35][LOG] Device user connected since : 13:50:29 06/06/2021
+[06/06/2021-14:11:35][LOG] Device booted since : 13:49:09 06/06/2021
+[06/06/2021-14:11:35][LOG] --------------------
+[06/06/2021-14:11:35][INFO] Connexion au serveur : 1.1.1.1:33000
+[06/06/2021-14:11:40][Server Connection ERROR] Impossible de se connecté au serveur : 1.1.1.1:33000 -- Error : timed out
+[06/06/2021-14:11:40][LOG] Device Infos Handler started
+[06/06/2021-14:11:40][LOG] Network Handler started
+[06/06/2021-14:11:40][LOG] FTP Handler started
+[06/06/2021-14:11:40][INFO] Connecté à internet
+[06/06/2021-14:11:40][LOG] Keyboard Handler started
+[06/06/2021-14:11:40][LOG] Mouse Handler started
+[06/06/2021-14:11:40][LOG] Processus Handler startedder started
+[06/06/2021-14:11:40][LOG] Disks Handler started
+[06/06/2021-14:11:40][LOG] Web Handler started
+[06/06/2021-14:11:40][INFO] Reconnection au serveur
+
+[06/06/2021-14:12:53][LOG] STARTED
+
+[06/06/2021-14:12:53][LOG] Version : 0.0.1.1
+[06/06/2021-14:12:53][LOG] --- DEVICE INFOS ---
+[06/06/2021-14:12:53][LOG] Device name : DESKTOP-V92JLQM
+[06/06/2021-14:12:53][LOG] Device ip : 192.168.1.21
+[06/06/2021-14:12:53][LOG] Device os : Windows
+[06/06/2021-14:12:53][LOG] Device release : 10
+[06/06/2021-14:12:53][LOG] Device version : 10.0.19041
+[06/06/2021-14:12:53][LOG] Device architecture : AMD64
+[06/06/2021-14:12:53][LOG] Device processor architecture : Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+[06/06/2021-14:12:53][LOG] Device connected user : Thomas
+[06/06/2021-14:12:53][LOG] Device user connected since : 13:50:29 06/06/2021
+[06/06/2021-14:12:53][LOG] Device booted since : 13:49:09 06/06/2021
+[06/06/2021-14:12:53][LOG] --------------------
+[06/06/2021-14:12:53][INFO] Connexion au serveur : 1.1.1.1:33000
+[06/06/2021-14:12:58][Server Connection ERROR] Impossible de se connecté au serveur : 1.1.1.1:33000 -- Error : timed out
+[06/06/2021-14:12:58][LOG] Device Infos Handler started
+[06/06/2021-14:12:58][LOG] Web Handler started
+[06/06/2021-14:12:58][LOG] AI Server Connection Handler started
+[06/06/2021-14:12:58][LOG] Disks Handler started
+[06/06/2021-14:12:58][LOG] FTP Handler started
+[06/06/2021-14:12:58][LOG] Keyboard Handler started
+[06/06/2021-14:12:58][LOG] Network Handler started
+[06/06/2021-14:12:58][LOG] Screenshot Handler started
+[06/06/2021-14:12:58][LOG] Processus Handler started
+[06/06/2021-14:12:58][LOG] Mouse Handler started
+[06/06/2021-14:12:58][INFO] Connecté à internet
+[06/06/2021-14:12:58][INFO] Reconnection au serveur
+
+[06/06/2021-14:26:05][LOG] STARTED
+
+[06/06/2021-14:26:05][LOG] Version : 0.0.1.1
+[06/06/2021-14:26:05][LOG] --- DEVICE INFOS ---
+[06/06/2021-14:26:05][LOG] Device name : DESKTOP-V92JLQM
+[06/06/2021-14:26:05][LOG] Device ip : 192.168.1.21
+[06/06/2021-14:26:05][LOG] Device os : Windows
+[06/06/2021-14:26:05][LOG] Device release : 10
+[06/06/2021-14:26:05][LOG] Device version : 10.0.19041
+[06/06/2021-14:26:05][LOG] Device architecture : AMD64
+[06/06/2021-14:26:05][LOG] Device processor architecture : Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+[06/06/2021-14:26:05][LOG] Device connected user : Thomas
+[06/06/2021-14:26:05][LOG] Device user connected since : 13:50:29 06/06/2021
+[06/06/2021-14:26:05][LOG] Device booted since : 13:49:10 06/06/2021
+[06/06/2021-14:26:05][LOG] --------------------
+[06/06/2021-14:26:05][INFO] Connexion au serveur : 1.1.1.1:33000
+[06/06/2021-14:26:10][Server Connection ERROR] Impossible de se connecté au serveur : 1.1.1.1:33000 -- Error : timed out
+[06/06/2021-14:26:10][LOG] Mouse Handler started
+[06/06/2021-14:26:10][LOG] Device Infos Handler started
+[06/06/2021-14:26:10][LOG] Screenshot Handler started
+[06/06/2021-14:26:10][LOG] Keyboard Handler started
+[06/06/2021-14:26:10][LOG] Network Handler started
+[06/06/2021-14:26:10][LOG] FTP Handler started
+[06/06/2021-14:26:10][LOG] Disks Handler started
+[06/06/2021-14:26:10][LOG] Processus Handler started
+[06/06/2021-14:26:10][LOG] Web Handler started
+[06/06/2021-14:26:10][LOG] AI Server Connection Handler started
+[06/06/2021-14:26:10][INFO] Connecté à internet
+[06/06/2021-14:26:10][INFO] Reconnection au serveur
+
+[06/06/2021-14:28:15][LOG] STARTED
+
+[06/06/2021-14:28:16][LOG] Version : 0.0.1.1
+[06/06/2021-14:28:16][LOG] --- DEVICE INFOS ---
+[06/06/2021-14:28:16][LOG] Device name : DESKTOP-V92JLQM
+[06/06/2021-14:28:16][LOG] Device ip : 192.168.1.21
+[06/06/2021-14:28:16][LOG] Device os : Windows
+[06/06/2021-14:28:16][LOG] Device release : 10
+[06/06/2021-14:28:16][LOG] Device version : 10.0.19041
+[06/06/2021-14:28:16][LOG] Device architecture : AMD64
+[06/06/2021-14:28:16][LOG] Device processor architecture : Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+[06/06/2021-14:28:16][LOG] Device connected user : Thomas
+[06/06/2021-14:28:16][LOG] Device user connected since : 13:50:29 06/06/2021
+[06/06/2021-14:28:16][LOG] Device booted since : 13:49:10 06/06/2021
+[06/06/2021-14:28:16][LOG] --------------------
+[06/06/2021-14:28:16][INFO] Connexion au serveur : 1.1.1.1:33000
+[06/06/2021-14:28:21][Server Connection ERROR] Impossible de se connecté au serveur : 1.1.1.1:33000 -- Error : timed out
+[06/06/2021-14:28:21][LOG] Device Infos Handler started
+[06/06/2021-14:28:21][LOG] Network Handler started
+[06/06/2021-14:28:21][LOG] FTP Handler started
+[06/06/2021-14:28:21][LOG] Web Handler started
+[06/06/2021-14:28:21][LOG] Processus Handler started
+[06/06/2021-14:28:21][LOG] AI Server Connection Handler started
+[06/06/2021-14:28:21][LOG] Mouse Handler started
+[06/06/2021-14:28:21][LOG] Screenshot Handler started
+[06/06/2021-14:28:21][INFO] Connecté à internet
+[06/06/2021-14:28:21][LOG] Disks Handler started
+[06/06/2021-14:28:21][LOG] Keyboard Handler started
+[06/06/2021-14:28:21][INFO] Reconnection au serveur
+
+[06/06/2021-14:36:34][LOG] STARTED
+
+[06/06/2021-14:36:34][LOG] Version : 0.0.1.1
+[06/06/2021-14:36:34][LOG] --- DEVICE INFOS ---
+[06/06/2021-14:36:34][LOG] Device name : DESKTOP-V92JLQM
+[06/06/2021-14:36:34][LOG] Device ip : 192.168.1.21
+[06/06/2021-14:36:34][LOG] Device os : Windows
+[06/06/2021-14:36:34][LOG] Device release : 10
+[06/06/2021-14:36:34][LOG] Device version : 10.0.19041
+[06/06/2021-14:36:34][LOG] Device architecture : AMD64
+[06/06/2021-14:36:34][LOG] Device processor architecture : Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+[06/06/2021-14:36:34][LOG] Device connected user : Thomas
+[06/06/2021-14:36:34][LOG] Device user connected since : 13:50:29 06/06/2021
+[06/06/2021-14:36:34][LOG] Device booted since : 13:49:09 06/06/2021
+[06/06/2021-14:36:34][LOG] --------------------
+[06/06/2021-14:36:34][INFO] Connexion au serveur : 192.168.1.14:33000
+[06/06/2021-14:36:34][LOG] Device Infos Handler started
+[06/06/2021-14:36:34][LOG] Disks Handler started
+[06/06/2021-14:36:34][LOG] Network Handler started
+[06/06/2021-14:36:34][LOG] Keyboard Handler started
+[06/06/2021-14:36:34][LOG] FTP Handler started
+[06/06/2021-14:36:34][LOG] Mouse Handler started
+[06/06/2021-14:36:34][LOG] Screenshot Handler starte
+[06/06/2021-14:36:34][LOG] Web Handler started
+[06/06/2021-14:36:34][LOG] AI Server Connection Handler started
+[06/06/2021-14:36:34][INFO] Connecté à internet
+[06/06/2021-14:36:34][INFO] Connecté au serveur
+[06/06/2021-15:21:08][Server Connection ERROR] Une connexion existante a dû être fermée par l’hôte distant
+[06/06/2021-15:21:08][INFO] Déconnecté du serveur
+[06/06/2021-15:21:08][INFO] Reconnection au serveur
+[06/06/2021-15:21:10][Server Connection ERROR] Impossible de se connecté au serveur : 192.168.1.14:33000 -- Error : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[06/06/2021-15:21:22][INFO] Connecté au serveur
+[06/06/2021-15:30:23][Server Connection ERROR] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+[06/06/2021-15:30:23][INFO] Déconnecté du serveur
+[06/06/2021-15:30:23][INFO] Reconnection au serveur
+[06/06/2021-15:30:27][INFO] Connecté au serveur
+[06/06/2021-15:35:29][INFO] Déconnecté du serveur
+[06/06/2021-15:35:29][INFO] Reconnection au serveur
+[06/06/2021-15:35:31][Server Connection ERROR] Impossible de se connecté au serveur : 192.168.1.14:33000 -- Error : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[06/06/2021-15:35:39][INFO] Connecté au serveur
+[06/06/2021-15:45:02][Server Connection ERROR] Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+[06/06/2021-15:45:02][INFO] Déconnecté du serveur
+[06/06/2021-15:45:02][INFO] Reconnection au serveur
+[06/06/2021-15:45:04][INFO] Connecté au serveur

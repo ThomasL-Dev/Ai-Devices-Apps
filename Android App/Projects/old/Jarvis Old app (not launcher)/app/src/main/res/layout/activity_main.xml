@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010"
+    tools:context=".MainActivity">
+
+
+    <!--TITLE-->
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="#000000"
+            app:srcCompat="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/labelTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:gravity="center|left"
+            android:text="@string/app_name"
+            android:textColor="#00C2FF"
+            android:textColorHighlight="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/labelKbps"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="#000000"
+            android:gravity="center"
+            android:textColor="#00C2FF" />
+
+        <TextView
+            android:id="@+id/labelHour"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="#000000"
+            android:gravity="center"
+            android:textColor="#00C2FF"
+            android:textColorHighlight="#FFFFFF" />
+
+    </LinearLayout>
+
+
+    <!-- MAIN FRAME -->
+    <TextView
+        android:id="@+id/labelConnectedTo"
+        android:layout_width="250dp"
+        android:layout_height="47dp"
+        android:gravity="center|left"
+        android:textColor="#00c2ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleLayout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/RecognitionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00101010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mic" />
+
+    <TextView
+        android:id="@+id/labelMs"
+        android:layout_width="72dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:textColor="#00c2ff"
+        app:layout_constraintBottom_toBottomOf="@+id/labelConnectedTo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="@+id/labelConnectedTo"
+        app:layout_constraintTop_toBottomOf="@+id/titleLayout"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <!-- SLIDING DRAWER -->
+
+    <SlidingDrawer
+        android:id="@+id/slidingDrawerOption"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:content="@+id/slidingContentOption"
+        android:handle="@+id/handlerOption"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/handlerOption"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:src="@drawable/transparent" />
+
+        <LinearLayout
+            android:id="@+id/slidingContentOption"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#CD0C0C0C"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/switchWallpaper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Active Wallpaper"
+                android:textColor="#00c2ff" />
+
+            <EditText
+                android:id="@+id/entryIpOption"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0"
+                android:inputType="textPersonName"
+                android:hint="Ip"
+                android:textColor="#00c2ff"
+                android:textColorHighlight="#00c2ff"
+                android:textColorLink="#00c2ff" />
+
+
+            <EditText
+                android:id="@+id/entryPortOption"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0"
+                android:inputType="textPersonName"
+                android:hint="Port"
+                android:textColor="#00c2ff"
+                android:textColorHighlight="#00c2ff"
+                android:textColorLink="#00c2ff" />
+
+
+            <ImageButton
+                android:id="@+id/saveButtonOption"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0"
+                android:background="#E8090909"
+                app:srcCompat="@drawable/send" />
+
+
+        </LinearLayout>
+
+    </SlidingDrawer>
+
+
+    <SlidingDrawer
+        android:id="@+id/slidingDrawerConsole"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:content="@+id/slidingContentConsole"
+        android:handle="@+id/handlerConsole"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.999"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:id="@+id/handlerConsole"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:alpha="0.2"
+            android:orientation="vertical"
+            android:rotation="180"
+            android:src="@drawable/arrow" />
+
+        <LinearLayout
+            android:id="@+id/slidingContentConsole"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EB0C0C0C"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/entryConsole"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="0"
+                android:inputType="textPersonName"
+                android:text="Envoi au server ..."
+                android:textColor="#00c2ff"
+                android:textColorHighlight="#00c2ff"
+                android:textColorLink="#00c2ff" />
+
+            <ImageButton
+                android:id="@+id/sendButtonConsole"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="0"
+                android:background="#E8090909"
+                app:srcCompat="@drawable/send" />
+        </LinearLayout>
+    </SlidingDrawer>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

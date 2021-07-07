@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VoiceToAI" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/bg_prim</item>
+        <item name="colorPrimaryDark">@color/light_black</item>
+        <item name="colorAccent">@color/darker_cyan</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

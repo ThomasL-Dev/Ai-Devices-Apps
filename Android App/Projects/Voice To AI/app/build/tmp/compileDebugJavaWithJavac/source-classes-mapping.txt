@@ -1,0 +1,21 @@
+com/dante/voicetoai/OptionsActivity.java
+ com.dante.voicetoai.OptionsActivity
+ com.dante.voicetoai.OptionsActivity$1
+ com.dante.voicetoai.OptionsActivity$2
+com/dante/voicetoai/Methods/Memory.java
+ com.dante.voicetoai.Methods.Memory
+com/dante/voicetoai/BuildConfig.java
+ com.dante.voicetoai.BuildConfig
+com/dante/voicetoai/Handlers/SocketHandler.java
+ com.dante.voicetoai.Handlers.SocketHandler
+com/dante/voicetoai/Services/ServerConnexionService.java
+ com.dante.voicetoai.Services.ServerConnexionService
+ com.dante.voicetoai.Services.ServerConnexionService$1
+com/dante/voicetoai/Methods/RequestSender.java
+ com.dante.voicetoai.Methods.RequestSender
+com/dante/voicetoai/MainActivity.java
+ com.dante.voicetoai.MainActivity
+ com.dante.voicetoai.MainActivity$1
+ com.dante.voicetoai.MainActivity$2
+com/dante/voicetoai/Handlers/RecognizerHandler.java
+ com.dante.voicetoai.Handlers.RecognizerHandler

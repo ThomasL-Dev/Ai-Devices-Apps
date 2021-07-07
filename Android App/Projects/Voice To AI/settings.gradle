@@ -1,0 +1,2 @@
+rootProject.name = "Voice To AI"
+include ':app'

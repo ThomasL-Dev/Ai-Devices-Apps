@@ -1,0 +1,4 @@
+com/dante/aihub/MainActivity.java
+ com.dante.aihub.MainActivity
+com/dante/aihub/BuildConfig.java
+ com.dante.aihub.BuildConfig

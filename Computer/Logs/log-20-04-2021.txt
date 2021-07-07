@@ -1,0 +1,604 @@
+##############################
+### [ LOGS DU 20/04/2021 ] ###
+##############################
+
+
+[20/04/2021-00:02:20][LOG] STARTED
+[20/04/2021-00:02:20][LOG] --- DEVICE INFOS ---
+[20/04/2021-00:02:20][LOG] Device name : DESKTOP-V92JLQM
+[20/04/2021-00:02:20][LOG] Device ip : 192.168.1.21
+[20/04/2021-00:02:20][LOG] Device os : Windows
+[20/04/2021-00:02:20][LOG] Device release : 10
+[20/04/2021-00:02:20][LOG] Device version : 10.0.10240
+[20/04/2021-00:02:20][LOG] Device architecture : AMD64
+[20/04/2021-00:02:20][LOG] Device processor architecture : Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+[20/04/2021-00:02:20][LOG] Device connected user : Thomas
+[20/04/2021-00:02:20][LOG] Device user connected since : 23:39:12 19/04/2021
+[20/04/2021-00:02:20][LOG] Device booted since : 23:39:08 19/04/2021
+[20/04/2021-00:02:20][LOG] --------------------
+[20/04/2021-00:02:20][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-00:02:41][Server Connection ERROR] Impossible de se connecté au serveur : 1.1.1.1:33000 -- Error : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+[20/04/2021-00:02:41][LOG] Web Handler started
+[20/04/2021-00:02:41][LOG] Processus Handler started
+[20/04/2021-00:02:41][LOG] FTP Handler started
+[20/04/2021-00:02:41][LOG] Screenshot Handler started
+[20/04/2021-00:02:41][LOG] Mouse Handler started
+[20/04/2021-00:02:41][LOG] Keyboard Handler started
+[20/04/2021-00:02:41][LOG] Device Infos Handler started
+[20/04/2021-00:02:41][LOG] Network Handler started
+[20/04/2021-00:02:41][LOG] Disks Handler started
+[20/04/2021-00:02:41][INFO] Connecté à internet
+[20/04/2021-00:02:42][LOG] AI Server Connection Handler started
+[20/04/2021-00:02:42][INFO] Reconnection au serveur
+
+[20/04/2021-00:03:49][LOG] STARTED
+[20/04/2021-00:03:49][LOG] --- DEVICE INFOS ---
+[20/04/2021-00:03:49][LOG] Device name : DESKTOP-V92JLQM
+[20/04/2021-00:03:49][LOG] Device ip : 192.168.1.21
+[20/04/2021-00:03:49][LOG] Device os : Windows
+[20/04/2021-00:03:49][LOG] Device release : 10
+[20/04/2021-00:03:49][LOG] Device version : 10.0.10240
+[20/04/2021-00:03:49][LOG] Device architecture : AMD64
+[20/04/2021-00:03:49][LOG] Device processor architecture : Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+[20/04/2021-00:03:49][LOG] Device connected user : Thomas
+[20/04/2021-00:03:49][LOG] Device user connected since : 23:39:12 19/04/2021
+[20/04/2021-00:03:49][LOG] Device booted since : 23:39:09 19/04/2021
+[20/04/2021-00:03:49][LOG] --------------------
+[20/04/2021-00:03:49][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-00:04:10][Server Connection ERROR] Impossible de se connecté au serveur : 1.1.1.1:33000 -- Error : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+[20/04/2021-00:04:10][LOG] Processus Handler started
+[20/04/2021-00:04:10][LOG] Keyboard Handler started
+[20/04/2021-00:04:10][LOG] Screenshot Handler started
+[20/04/2021-00:04:10][LOG] Mouse Handler started
+[20/04/2021-00:04:10][LOG] FTP Handler started
+[20/04/2021-00:04:10][LOG] Device Infos Handler started
+[20/04/2021-00:04:10][LOG] Network Handler started
+[20/04/2021-00:04:10][LOG] Disks Handler started
+[20/04/2021-00:04:10][LOG] Web Handler started
+[20/04/2021-00:04:10][INFO] Connecté à internet
+[20/04/2021-00:04:10][LOG] AI Server Connection Handler started
+[20/04/2021-00:04:10][INFO] Reconnection au serveur
+
+[20/04/2021-00:11:34][LOG] STARTED
+[20/04/2021-00:11:34][LOG] --- DEVICE INFOS ---
+[20/04/2021-00:11:34][LOG] Device name : DESKTOP-V92JLQM
+[20/04/2021-00:11:34][LOG] Device ip : 192.168.1.21
+[20/04/2021-00:11:35][LOG] Device os : Windows
+[20/04/2021-00:11:35][LOG] Device release : 10
+[20/04/2021-00:11:35][LOG] Device version : 10.0.10240
+[20/04/2021-00:11:35][LOG] Device architecture : AMD64
+[20/04/2021-00:11:35][LOG] Device processor architecture : Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+[20/04/2021-00:11:35][LOG] Device connected user : Thomas
+[20/04/2021-00:11:35][LOG] Device user connected since : 23:39:12 19/04/2021
+[20/04/2021-00:11:35][LOG] Device booted since : 23:39:09 19/04/2021
+[20/04/2021-00:11:35][LOG] --------------------
+[20/04/2021-00:11:35][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-00:11:56][Server Connection ERROR] Impossible de se connecté au serveur : 1.1.1.1:33000 -- Error : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+[20/04/2021-00:11:56][LOG] Network Handler startedd
+[20/04/2021-00:11:56][LOG] Mouse Handler startedarted
+[20/04/2021-00:11:56][LOG] FTP Handler started
+[20/04/2021-00:11:56][LOG] Device Infos Handler started
+[20/04/2021-00:11:56][LOG] Disks Handler started
+[20/04/2021-00:11:56][LOG] Processus Handler started
+[20/04/2021-00:11:56][INFO] Connecté à internet
+[20/04/2021-00:11:56][LOG] AI Server Connection Handler started
+[20/04/2021-00:11:56][INFO] Reconnection au serveur
+
+[20/04/2021-00:14:02][LOG] STARTED
+[20/04/2021-00:14:02][LOG] --- DEVICE INFOS ---
+[20/04/2021-00:14:02][LOG] Device name : DESKTOP-V92JLQM
+[20/04/2021-00:14:02][LOG] Device ip : 192.168.1.21
+[20/04/2021-00:14:02][LOG] Device os : Windows
+[20/04/2021-00:14:02][LOG] Device release : 10
+[20/04/2021-00:14:02][LOG] Device version : 10.0.10240
+[20/04/2021-00:14:02][LOG] Device architecture : AMD64
+[20/04/2021-00:14:02][LOG] Device processor architecture : Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+[20/04/2021-00:14:02][LOG] Device connected user : Thomas
+[20/04/2021-00:14:02][LOG] Device user connected since : 23:39:12 19/04/2021
+[20/04/2021-00:14:02][LOG] Device booted since : 23:39:08 19/04/2021
+[20/04/2021-00:14:02][LOG] --------------------
+[20/04/2021-00:14:02][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-00:14:23][Server Connection ERROR] Impossible de se connecté au serveur : 1.1.1.1:33000 -- Error : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+[20/04/2021-00:14:23][LOG] Keyboard Handler started
+[20/04/2021-00:14:23][LOG] Web Handler started
+[20/04/2021-00:14:23][LOG] Disks Handler started
+[20/04/2021-00:14:23][LOG] Processus Handler started
+[20/04/2021-00:14:23][LOG] Device Infos Handler started
+[20/04/2021-00:14:23][LOG] Screenshot Handler started
+[20/04/2021-00:14:23][LOG] Network Handler started
+[20/04/2021-00:14:23][LOG] Mouse Handler started
+[20/04/2021-00:14:23][LOG] FTP Handler started
+[20/04/2021-00:14:23][INFO] Connecté à internet
+[20/04/2021-00:14:24][LOG] AI Server Connection Handler started
+[20/04/2021-00:14:24][INFO] Reconnection au serveur
+
+[20/04/2021-00:16:36][LOG] STARTED
+[20/04/2021-00:16:36][LOG] --- DEVICE INFOS ---
+[20/04/2021-00:16:36][LOG] Device name : DESKTOP-V92JLQM
+[20/04/2021-00:16:36][LOG] Device ip : 192.168.1.21
+[20/04/2021-00:16:36][LOG] Device os : Windows
+[20/04/2021-00:16:36][LOG] Device release : 10
+[20/04/2021-00:16:36][LOG] Device version : 10.0.10240
+[20/04/2021-00:16:36][LOG] Device architecture : AMD64
+[20/04/2021-00:16:36][LOG] Device processor architecture : Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+[20/04/2021-00:16:36][LOG] Device connected user : Thomas
+[20/04/2021-00:16:36][LOG] Device user connected since : 23:39:12 19/04/2021
+[20/04/2021-00:16:36][LOG] Device booted since : 23:39:09 19/04/2021
+[20/04/2021-00:16:36][LOG] --------------------
+[20/04/2021-00:16:36][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-00:16:57][Server Connection ERROR] Impossible de se connecté au serveur : 1.1.1.1:33000 -- Error : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+[20/04/2021-00:16:57][LOG] Keyboard Handler started
+[20/04/2021-00:16:57][LOG] Network Handler started
+[20/04/2021-00:16:57][LOG] Mouse Handler started
+[20/04/2021-00:16:57][LOG] Web Handler started
+[20/04/2021-00:16:57][LOG] Disks Handler started
+[20/04/2021-00:16:57][LOG] Screenshot Handler started
+[20/04/2021-00:16:57][LOG] Device Infos Handler started
+[20/04/2021-00:16:57][LOG] Processus Handler started
+[20/04/2021-00:16:57][INFO] Connecté à internet
+[20/04/2021-00:16:57][LOG] AI Server Connection Handler started
+[20/04/2021-00:16:57][INFO] Reconnection au serveur
+
+[20/04/2021-00:18:03][LOG] STARTED
+[20/04/2021-00:18:03][LOG] --- DEVICE INFOS ---
+[20/04/2021-00:18:03][LOG] Device name : DESKTOP-V92JLQM
+[20/04/2021-00:18:03][LOG] Device ip : 192.168.1.21
+[20/04/2021-00:18:03][LOG] Device os : Windows
+[20/04/2021-00:18:03][LOG] Device release : 10
+[20/04/2021-00:18:03][LOG] Device version : 10.0.10240
+[20/04/2021-00:18:03][LOG] Device architecture : AMD64
+[20/04/2021-00:18:03][LOG] Device processor architecture : Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+[20/04/2021-00:18:03][LOG] Device connected user : Thomas
+[20/04/2021-00:18:03][LOG] Device user connected since : 23:39:12 19/04/2021
+[20/04/2021-00:18:03][LOG] Device booted since : 23:39:09 19/04/2021
+[20/04/2021-00:18:03][LOG] --------------------
+[20/04/2021-00:18:03][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-00:18:24][Server Connection ERROR] Impossible de se connecté au serveur : 1.1.1.1:33000 -- Error : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+[20/04/2021-00:18:24][LOG] Web Handler started
+[20/04/2021-00:18:24][LOG] FTP Handler started
+[20/04/2021-00:18:24][LOG] Screenshot Handler started
+[20/04/2021-00:18:24][LOG] Disks Handler started
+[20/04/2021-00:18:24][LOG] Device Infos Handler started
+[20/04/2021-00:18:24][LOG] Network Handler started
+[20/04/2021-00:18:24][LOG] Keyboard Handler started
+[20/04/2021-00:18:24][LOG] Processus Handler started
+[20/04/2021-00:18:24][LOG] Mouse Handler started
+[20/04/2021-00:18:24][INFO] Connecté à internet
+[20/04/2021-00:18:24][LOG] AI Server Connection Handler started
+[20/04/2021-00:18:24][INFO] Reconnection au serveur
+
+[20/04/2021-00:18:57][LOG] STARTED
+[20/04/2021-00:18:57][LOG] --- DEVICE INFOS ---
+[20/04/2021-00:18:57][LOG] Device name : DESKTOP-V92JLQM
+[20/04/2021-00:18:57][LOG] Device ip : 192.168.1.21
+[20/04/2021-00:18:57][LOG] Device os : Windows
+[20/04/2021-00:18:57][LOG] Device release : 10
+[20/04/2021-00:18:57][LOG] Device version : 10.0.10240
+[20/04/2021-00:18:57][LOG] Device architecture : AMD64
+[20/04/2021-00:18:57][LOG] Device processor architecture : Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+[20/04/2021-00:18:57][LOG] Device connected user : Thomas
+[20/04/2021-00:18:57][LOG] Device user connected since : 23:39:12 19/04/2021
+[20/04/2021-00:18:57][LOG] Device booted since : 23:39:08 19/04/2021
+[20/04/2021-00:18:57][LOG] --------------------
+[20/04/2021-00:18:57][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-00:19:18][Server Connection ERROR] Impossible de se connecté au serveur : 1.1.1.1:33000 -- Error : Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+[20/04/2021-00:19:18][LOG] Network Handler started
+[20/04/2021-00:19:18][LOG] Mouse Handler started
+[20/04/2021-00:19:18][LOG] Disks Handler started
+[20/04/2021-00:19:18][LOG] FTP Handler started
+[20/04/2021-00:19:18][LOG] Web Handler started
+[20/04/2021-00:19:18][LOG] Screenshot Handler started
+[20/04/2021-00:19:18][LOG] Keyboard Handler started
+[20/04/2021-00:19:18][LOG] Device Infos Handler started
+[20/04/2021-00:19:18][LOG] Processus Handler started
+[20/04/2021-00:19:18][INFO] Connecté à internet
+[20/04/2021-00:19:19][LOG] AI Server Connection Handler started
+[20/04/2021-00:19:19][INFO] Reconnection au serveur
+[20/04/2021-00:32:45][LOG] STARTED
+[20/04/2021-00:32:45][LOG] Shortcut created in '/home/thomas/Documents/AI/Devices App/Computer/ai_desktop_app.sh'
+[20/04/2021-00:32:45][LOG] --- DEVICE INFOS ---
+[20/04/2021-00:32:45][LOG] Device name : ubuntu
+[20/04/2021-00:32:45][LOG] Device ip : 192.168.1.14
+[20/04/2021-00:32:45][LOG] Device os : Linux
+[20/04/2021-00:32:45][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-00:32:45][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-00:32:45][LOG] Device architecture : x86_64
+[20/04/2021-00:32:45][LOG] Device processor architecture : x86_64
+[20/04/2021-00:32:45][LOG] Device connected user : thomas
+[20/04/2021-00:32:45][LOG] Device user connected since : 00:28:16 20/04/2021
+[20/04/2021-00:32:45][LOG] Device booted since : 00:27:17 20/04/2021
+[20/04/2021-00:32:45][LOG] --------------------
+[20/04/2021-00:32:45][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-00:34:56][Server Connection ERROR] Impossible de se connectÃ© au serveur : 1.1.1.1:33000 -- Error : Connexion terminÃ©e par expiration du dÃ©lai d'attente
+[20/04/2021-00:34:56][LOG] Device Infos Handler started
+[20/04/2021-00:34:56][LOG] Network Handler started
+[20/04/2021-00:34:56][INFO] ConnectÃ© Ã  internet
+[20/04/2021-00:34:56][LOG] FTP Handler started
+[20/04/2021-00:34:56][ERROR] FTP Handler -- [Errno 13] Permission non accordÃ©e
+[20/04/2021-00:34:56][LOG] Processus Handler started
+[20/04/2021-00:34:56][LOG] Screenshot Handler started
+[20/04/2021-00:34:56][LOG] Mouse Handler started
+[20/04/2021-00:34:56][LOG] Disks Handler started
+[20/04/2021-00:34:56][LOG] Keyboard Handler started
+[20/04/2021-00:34:56][LOG] Web Handler started
+[20/04/2021-00:34:56][LOG] AI Server Connection Handler started
+[20/04/2021-00:34:56][INFO] Reconnection au serveur
+
+[20/04/2021-00:38:51][LOG] STARTED
+[20/04/2021-00:38:51][LOG] Shortcut created in '/home/thomas/Documents/AI/Devices App/Computer/ai_desktop_app.sh'
+[20/04/2021-00:38:51][LOG] --- DEVICE INFOS ---
+[20/04/2021-00:38:51][LOG] Device name : ubuntu
+[20/04/2021-00:38:51][LOG] Device ip : 192.168.1.14
+[20/04/2021-00:38:51][LOG] Device os : Linux
+[20/04/2021-00:38:51][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-00:38:51][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-00:38:51][LOG] Device architecture : x86_64
+[20/04/2021-00:38:51][LOG] Device processor architecture : x86_64
+[20/04/2021-00:38:51][LOG] Device connected user : thomas
+[20/04/2021-00:38:51][LOG] Device user connected since : 00:28:16 20/04/2021
+[20/04/2021-00:38:51][LOG] Device booted since : 00:27:17 20/04/2021
+[20/04/2021-00:38:51][LOG] --------------------
+[20/04/2021-00:38:51][INFO] Connexion au serveur : 1.1.1.1:33000
+
+[20/04/2021-00:39:49][LOG] STARTED
+[20/04/2021-00:39:49][LOG] Shortcut created in '/home/thomas/Documents/AI/Devices App/Computer/ai_desktop_app.sh'
+[20/04/2021-00:39:49][LOG] --- DEVICE INFOS ---
+[20/04/2021-00:39:49][LOG] Device name : ubuntu
+[20/04/2021-00:39:49][LOG] Device ip : 192.168.1.14
+[20/04/2021-00:39:49][LOG] Device os : Linux
+[20/04/2021-00:39:49][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-00:39:49][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-00:39:49][LOG] Device architecture : x86_64
+[20/04/2021-00:39:49][LOG] Device processor architecture : x86_64
+[20/04/2021-00:39:49][LOG] Device connected user : thomas
+[20/04/2021-00:39:49][LOG] Device user connected since : 00:28:16 20/04/2021
+[20/04/2021-00:39:49][LOG] Device booted since : 00:27:17 20/04/2021
+[20/04/2021-00:39:49][LOG] --------------------
+[20/04/2021-00:39:49][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-00:42:00][Server Connection ERROR] Impossible de se connectÃ© au serveur : 1.1.1.1:33000 -- Error : Connexion terminÃ©e par expiration du dÃ©lai d'attente
+[20/04/2021-00:42:00][LOG] Device Infos Handler started
+[20/04/2021-00:42:00][LOG] FTP Handler started
+[20/04/2021-00:42:00][LOG] Network Handler started
+[20/04/2021-00:42:00][LOG] Processus Handler started
+[20/04/2021-00:42:00][INFO] ConnectÃ© Ã  internet
+[20/04/2021-00:42:00][ERROR] FTP Handler -- [Errno 13] Permission non accordÃ©e
+[20/04/2021-00:42:00][LOG] Screenshot Handler started
+[20/04/2021-00:42:00][LOG] Mouse Handler started
+[20/04/2021-00:42:00][LOG] Disks Handler started
+[20/04/2021-00:42:00][LOG] Keyboard Handler started
+[20/04/2021-00:42:00][LOG] Web Handler started
+[20/04/2021-00:42:00][LOG] AI Server Connection Handler started
+[20/04/2021-00:42:00][INFO] Reconnection au serveur
+
+[20/04/2021-14:54:57][LOG] STARTED
+
+[20/04/2021-14:54:57][LOG] Version :0
+[20/04/2021-14:54:57][LOG] Shortcut created in '/home/thomas/Documents/AI/Devices App/Computer/ai_desktop_app.sh'
+[20/04/2021-14:54:57][LOG] --- DEVICE INFOS ---
+[20/04/2021-14:54:57][LOG] Device name : ubuntu
+[20/04/2021-14:54:57][LOG] Device ip : 192.168.1.14
+[20/04/2021-14:54:57][LOG] Device os : Linux
+[20/04/2021-14:54:57][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-14:54:57][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-14:54:57][LOG] Device architecture : x86_64
+[20/04/2021-14:54:57][LOG] Device processor architecture : x86_64
+[20/04/2021-14:54:57][LOG] Device connected user : thomas
+[20/04/2021-14:54:57][LOG] Device user connected since : 13:26:56 20/04/2021
+[20/04/2021-14:54:57][LOG] Device booted since : 13:25:23 20/04/2021
+[20/04/2021-14:54:57][LOG] --------------------
+[20/04/2021-14:54:57][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-14:57:07][Server Connection ERROR] Impossible de se connectÃ© au serveur : 1.1.1.1:33000 -- Error : Connexion terminÃ©e par expiration du dÃ©lai d'attente
+[20/04/2021-14:57:07][LOG] Device Infos Handler started
+[20/04/2021-14:57:07][LOG] Network Handler started
+[20/04/2021-14:57:07][INFO] ConnectÃ© Ã  internet
+[20/04/2021-14:57:07][LOG] Processus Handler started
+[20/04/2021-14:57:07][LOG] FTP Handler started
+[20/04/2021-14:57:07][LOG] Mouse Handler started
+[20/04/2021-14:57:07][LOG] Screenshot Handler started
+[20/04/2021-14:57:07][ERROR] FTP Handler -- [Errno 13] Permission non accordÃ©e
+[20/04/2021-14:57:07][LOG] Keyboard Handler started
+[20/04/2021-14:57:07][LOG] Disks Handler started
+[20/04/2021-14:57:07][LOG] Web Handler started
+[20/04/2021-14:57:07][LOG] AI Server Connection Handler started
+[20/04/2021-14:57:07][INFO] Reconnection au serveur
+
+[20/04/2021-14:58:57][LOG] STARTED
+
+[20/04/2021-14:58:57][LOG] Version : 0
+[20/04/2021-14:58:57][LOG] --- DEVICE INFOS ---
+[20/04/2021-14:58:57][LOG] Device name : ubuntu
+[20/04/2021-14:58:57][LOG] Device ip : 192.168.1.14
+[20/04/2021-14:58:57][LOG] Device os : Linux
+[20/04/2021-14:58:57][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-14:58:57][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-14:58:57][LOG] Device architecture : x86_64
+[20/04/2021-14:58:57][LOG] Device processor architecture : x86_64
+[20/04/2021-14:58:57][LOG] Device connected user : thomas
+[20/04/2021-14:58:57][LOG] Device user connected since : 13:26:56 20/04/2021
+[20/04/2021-14:58:57][LOG] Device booted since : 13:25:23 20/04/2021
+[20/04/2021-14:58:57][LOG] --------------------
+[20/04/2021-14:58:57][INFO] Connexion au serveur : 1.1.1.1:33000
+
+[20/04/2021-14:59:33][LOG] STARTED
+
+[20/04/2021-14:59:33][LOG] Version : 0
+[20/04/2021-14:59:33][LOG] --- DEVICE INFOS ---
+[20/04/2021-14:59:33][LOG] Device name : ubuntu
+[20/04/2021-14:59:33][LOG] Device ip : 192.168.1.14
+[20/04/2021-14:59:33][LOG] Device os : Linux
+[20/04/2021-14:59:33][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-14:59:33][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-14:59:33][LOG] Device architecture : x86_64
+[20/04/2021-14:59:33][LOG] Device processor architecture : x86_64
+[20/04/2021-14:59:33][LOG] Device connected user : thomas
+[20/04/2021-14:59:33][LOG] Device user connected since : 13:26:56 20/04/2021
+[20/04/2021-14:59:33][LOG] Device booted since : 13:25:23 20/04/2021
+[20/04/2021-14:59:33][LOG] --------------------
+[20/04/2021-14:59:33][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-15:01:44][Server Connection ERROR] Impossible de se connectÃ© au serveur : 1.1.1.1:33000 -- Error : Connexion terminÃ©e par expiration du dÃ©lai d'attente
+[20/04/2021-15:01:44][LOG] Device Infos Handler started
+[20/04/2021-15:01:44][LOG] FTP Handler started
+[20/04/2021-15:01:44][LOG] Network Handler started
+[20/04/2021-15:01:44][INFO] ConnectÃ© Ã  internet
+[20/04/2021-15:01:44][ERROR] FTP Handler -- [Errno 13] Permission non accordÃ©e
+[20/04/2021-15:01:44][LOG] Processus Handler started
+[20/04/2021-15:01:44][LOG] Screenshot Handler started
+[20/04/2021-15:01:44][LOG] Mouse Handler started
+[20/04/2021-15:01:44][LOG] Disks Handler started
+[20/04/2021-15:01:44][LOG] Keyboard Handler started
+[20/04/2021-15:01:44][LOG] Web Handler started
+[20/04/2021-15:01:44][LOG] AI Server Connection Handler started
+[20/04/2021-15:01:44][INFO] Reconnection au serveur
+
+[20/04/2021-15:02:55][LOG] STARTED
+
+[20/04/2021-15:02:55][LOG] Version : 0
+[20/04/2021-15:02:55][LOG] --- DEVICE INFOS ---
+[20/04/2021-15:02:55][LOG] Device name : ubuntu
+[20/04/2021-15:02:55][LOG] Device ip : 192.168.1.14
+[20/04/2021-15:02:55][LOG] Device os : Linux
+[20/04/2021-15:02:55][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-15:02:55][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-15:02:55][LOG] Device architecture : x86_64
+[20/04/2021-15:02:55][LOG] Device processor architecture : x86_64
+[20/04/2021-15:02:55][LOG] Device connected user : thomas
+[20/04/2021-15:02:55][LOG] Device user connected since : 13:26:56 20/04/2021
+[20/04/2021-15:02:55][LOG] Device booted since : 13:25:23 20/04/2021
+[20/04/2021-15:02:55][LOG] --------------------
+[20/04/2021-15:02:55][INFO] Connexion au serveur : 1.1.1.1:33000
+
+[20/04/2021-15:03:16][LOG] STARTED
+
+[20/04/2021-15:03:16][LOG] Version : 0.0.1.1
+[20/04/2021-15:03:16][LOG] --- DEVICE INFOS ---
+[20/04/2021-15:03:16][LOG] Device name : ubuntu
+[20/04/2021-15:03:16][LOG] Device ip : 192.168.1.14
+[20/04/2021-15:03:16][LOG] Device os : Linux
+[20/04/2021-15:03:16][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-15:03:16][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-15:03:16][LOG] Device architecture : x86_64
+[20/04/2021-15:03:16][LOG] Device processor architecture : x86_64
+[20/04/2021-15:03:16][LOG] Device connected user : thomas
+[20/04/2021-15:03:16][LOG] Device user connected since : 13:26:56 20/04/2021
+[20/04/2021-15:03:16][LOG] Device booted since : 13:25:23 20/04/2021
+[20/04/2021-15:03:16][LOG] --------------------
+[20/04/2021-15:03:16][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-15:05:27][Server Connection ERROR] Impossible de se connectÃ© au serveur : 1.1.1.1:33000 -- Error : Connexion terminÃ©e par expiration du dÃ©lai d'attente
+[20/04/2021-15:05:27][LOG] Device Infos Handler started
+[20/04/2021-15:05:27][LOG] Network Handler started
+[20/04/2021-15:05:27][LOG] FTP Handler started
+[20/04/2021-15:05:27][LOG] Processus Handler started
+[20/04/2021-15:05:27][ERROR] FTP Handler -- [Errno 13] Permission non accordÃ©e
+[20/04/2021-15:05:27][LOG] Screenshot Handler started
+[20/04/2021-15:05:27][INFO] ConnectÃ© Ã  internet
+[20/04/2021-15:05:27][LOG] Mouse Handler started
+[20/04/2021-15:05:27][LOG] Keyboard Handler started
+[20/04/2021-15:05:27][LOG] Disks Handler started
+[20/04/2021-15:05:27][LOG] Web Handler started
+[20/04/2021-15:05:27][LOG] AI Server Connection Handler started
+[20/04/2021-15:05:27][INFO] Reconnection au serveur
+
+[20/04/2021-15:23:12][LOG] STARTED
+
+[20/04/2021-15:23:12][LOG] Version : 0.0.1.1
+[20/04/2021-15:23:12][LOG] --- DEVICE INFOS ---
+[20/04/2021-15:23:12][LOG] Device name : ubuntu
+[20/04/2021-15:23:12][LOG] Device ip : 192.168.1.14
+[20/04/2021-15:23:12][LOG] Device os : Linux
+[20/04/2021-15:23:12][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-15:23:12][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-15:23:12][LOG] Device architecture : x86_64
+[20/04/2021-15:23:12][LOG] Device processor architecture : x86_64
+[20/04/2021-15:23:12][LOG] Device connected user : thomas
+[20/04/2021-15:23:12][LOG] Device user connected since : 13:26:56 20/04/2021
+[20/04/2021-15:23:12][LOG] Device booted since : 13:25:23 20/04/2021
+[20/04/2021-15:23:12][LOG] --------------------
+[20/04/2021-15:23:12][INFO] Connexion au serveur : 1.1.1.1:33000
+
+[20/04/2021-15:25:09][LOG] STARTED
+
+[20/04/2021-15:25:09][LOG] Version : 0.0.1.1
+[20/04/2021-15:25:09][LOG] --- DEVICE INFOS ---
+[20/04/2021-15:25:09][LOG] Device name : ubuntu
+[20/04/2021-15:25:09][LOG] Device ip : 192.168.1.14
+[20/04/2021-15:25:09][LOG] Device os : Linux
+[20/04/2021-15:25:09][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-15:25:09][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-15:25:09][LOG] Device architecture : x86_64
+[20/04/2021-15:25:09][LOG] Device processor architecture : x86_64
+[20/04/2021-15:25:09][LOG] Device connected user : thomas
+[20/04/2021-15:25:09][LOG] Device user connected since : 13:26:56 20/04/2021
+[20/04/2021-15:25:09][LOG] Device booted since : 13:25:23 20/04/2021
+[20/04/2021-15:25:09][LOG] --------------------
+[20/04/2021-15:25:09][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-15:25:14][Server Connection ERROR] Impossible de se connectÃ© au serveur : 1.1.1.1:33000 -- Error : timed out
+[20/04/2021-15:25:14][LOG] Device Infos Handler started
+[20/04/2021-15:25:14][LOG] Network Handler started
+[20/04/2021-15:25:14][INFO] ConnectÃ© Ã  internet
+[20/04/2021-15:25:14][LOG] FTP Handler started
+[20/04/2021-15:25:14][ERROR] FTP Handler -- [Errno 13] Permission non accordÃ©e
+[20/04/2021-15:25:14][LOG] Processus Handler started
+[20/04/2021-15:25:14][LOG] Screenshot Handler started
+[20/04/2021-15:25:14][LOG] Mouse Handler started
+[20/04/2021-15:25:14][LOG] Keyboard Handler started
+[20/04/2021-15:25:14][LOG] Disks Handler started
+[20/04/2021-15:25:14][LOG] Web Handler started
+[20/04/2021-15:25:14][LOG] AI Server Connection Handler started
+[20/04/2021-15:25:14][INFO] Reconnection au serveur
+
+[20/04/2021-15:27:48][LOG] STARTED
+
+[20/04/2021-15:27:48][LOG] Version : 0.0.1.1
+[20/04/2021-15:27:48][LOG] --- DEVICE INFOS ---
+[20/04/2021-15:27:48][LOG] Device name : ubuntu
+[20/04/2021-15:27:48][LOG] Device ip : 192.168.1.14
+[20/04/2021-15:27:48][LOG] Device os : Linux
+[20/04/2021-15:27:48][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-15:27:48][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-15:27:48][LOG] Device architecture : x86_64
+[20/04/2021-15:27:48][LOG] Device processor architecture : x86_64
+[20/04/2021-15:27:48][LOG] Device connected user : thomas
+[20/04/2021-15:27:48][LOG] Device user connected since : 13:26:56 20/04/2021
+[20/04/2021-15:27:48][LOG] Device booted since : 13:25:23 20/04/2021
+[20/04/2021-15:27:48][LOG] --------------------
+[20/04/2021-15:27:48][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-15:27:53][Server Connection ERROR] Impossible de se connectÃ© au serveur : 1.1.1.1:33000 -- Error : timed out
+[20/04/2021-15:27:53][LOG] Device Infos Handler started
+[20/04/2021-15:27:53][LOG] Network Handler started
+[20/04/2021-15:27:53][LOG] FTP Handler started
+[20/04/2021-15:27:53][INFO] ConnectÃ© Ã  internet
+[20/04/2021-15:27:53][ERROR] FTP Handler -- [Errno 13] Permission non accordÃ©e
+[20/04/2021-15:27:53][LOG] Processus Handler started
+[20/04/2021-15:27:53][LOG] Screenshot Handler started
+[20/04/2021-15:27:53][LOG] Mouse Handler started
+[20/04/2021-15:27:53][LOG] Disks Handler started
+[20/04/2021-15:27:53][LOG] Keyboard Handler started
+[20/04/2021-15:27:53][LOG] Web Handler started
+[20/04/2021-15:27:53][LOG] AI Server Connection Handler started
+[20/04/2021-15:27:53][INFO] Reconnection au serveur
+
+[20/04/2021-15:28:38][LOG] STARTED
+
+[20/04/2021-15:28:38][LOG] Version : 0.0.1.1
+[20/04/2021-15:28:38][LOG] --- DEVICE INFOS ---
+[20/04/2021-15:28:38][LOG] Device name : ubuntu
+[20/04/2021-15:28:38][LOG] Device ip : 192.168.1.14
+[20/04/2021-15:28:38][LOG] Device os : Linux
+[20/04/2021-15:28:38][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-15:28:38][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-15:28:38][LOG] Device architecture : x86_64
+[20/04/2021-15:28:38][LOG] Device processor architecture : x86_64
+[20/04/2021-15:28:38][LOG] Device connected user : thomas
+[20/04/2021-15:28:38][LOG] Device user connected since : 13:26:56 20/04/2021
+[20/04/2021-15:28:38][LOG] Device booted since : 13:25:23 20/04/2021
+[20/04/2021-15:28:38][LOG] --------------------
+[20/04/2021-15:28:38][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-15:28:43][Server Connection ERROR] Impossible de se connectÃ© au serveur : 1.1.1.1:33000 -- Error : timed out
+[20/04/2021-15:28:43][LOG] Device Infos Handler started
+[20/04/2021-15:28:43][LOG] Network Handler started
+[20/04/2021-15:28:43][INFO] ConnectÃ© Ã  internet
+[20/04/2021-15:28:43][LOG] FTP Handler started
+[20/04/2021-15:28:43][LOG] Processus Handler started
+[20/04/2021-15:28:43][ERROR] FTP Handler -- [Errno 13] Permission non accordÃ©e
+[20/04/2021-15:28:43][LOG] Screenshot Handler started
+[20/04/2021-15:28:43][LOG] Disks Handler started
+[20/04/2021-15:28:43][LOG] Keyboard Handler started
+[20/04/2021-15:28:43][LOG] Mouse Handler started
+[20/04/2021-15:28:43][LOG] Web Handler started
+[20/04/2021-15:28:43][LOG] AI Server Connection Handler started
+[20/04/2021-15:28:43][INFO] Reconnection au serveur
+
+[20/04/2021-15:29:27][LOG] STARTED
+
+[20/04/2021-15:29:27][LOG] Version : 0.0.1.1.5.5.5.5
+[20/04/2021-15:29:27][LOG] --- DEVICE INFOS ---
+[20/04/2021-15:29:27][LOG] Device name : ubuntu
+[20/04/2021-15:29:27][LOG] Device ip : 192.168.1.14
+[20/04/2021-15:29:27][LOG] Device os : Linux
+[20/04/2021-15:29:27][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-15:29:27][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-15:29:27][LOG] Device architecture : x86_64
+[20/04/2021-15:29:27][LOG] Device processor architecture : x86_64
+[20/04/2021-15:29:27][LOG] Device connected user : thomas
+[20/04/2021-15:29:27][LOG] Device user connected since : 13:26:56 20/04/2021
+[20/04/2021-15:29:27][LOG] Device booted since : 13:25:23 20/04/2021
+[20/04/2021-15:29:27][LOG] --------------------
+[20/04/2021-15:29:27][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-15:29:32][Server Connection ERROR] Impossible de se connectÃ© au serveur : 1.1.1.1:33000 -- Error : timed out
+[20/04/2021-15:29:32][LOG] Device Infos Handler started
+[20/04/2021-15:29:32][LOG] Network Handler started
+[20/04/2021-15:29:32][LOG] FTP Handler started
+[20/04/2021-15:29:32][LOG] Processus Handler started
+[20/04/2021-15:29:32][LOG] Screenshot Handler started
+[20/04/2021-15:29:32][LOG] Mouse Handler started
+[20/04/2021-15:29:32][LOG] Disks Handler started
+[20/04/2021-15:29:32][LOG] Keyboard Handler started
+[20/04/2021-15:29:32][LOG] Web Handler started
+[20/04/2021-15:29:32][LOG] AI Server Connection Handler started
+[20/04/2021-15:29:32][ERROR] FTP Handler -- [Errno 13] Permission non accordÃ©e
+[20/04/2021-15:29:32][INFO] ConnectÃ© Ã  internet
+[20/04/2021-15:29:32][INFO] Reconnection au serveur
+
+[20/04/2021-15:31:17][LOG] STARTED
+
+[20/04/2021-15:31:17][LOG] Version : 0.0.1.1
+[20/04/2021-15:31:17][LOG] Shortcut created in '/home/thomas/Documents/AI/Devices App/Computer/ai_desktop_app.sh'
+[20/04/2021-15:31:17][LOG] --- DEVICE INFOS ---
+[20/04/2021-15:31:17][LOG] Device name : ubuntu
+[20/04/2021-15:31:17][LOG] Device ip : 192.168.1.14
+[20/04/2021-15:31:17][LOG] Device os : Linux
+[20/04/2021-15:31:17][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-15:31:17][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-15:31:17][LOG] Device architecture : x86_64
+[20/04/2021-15:31:17][LOG] Device processor architecture : x86_64
+[20/04/2021-15:31:17][LOG] Device connected user : thomas
+[20/04/2021-15:31:17][LOG] Device user connected since : 13:26:56 20/04/2021
+[20/04/2021-15:31:17][LOG] Device booted since : 13:25:23 20/04/2021
+[20/04/2021-15:31:17][LOG] --------------------
+[20/04/2021-15:31:17][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-15:31:22][Server Connection ERROR] Impossible de se connectÃ© au serveur : 1.1.1.1:33000 -- Error : timed out
+[20/04/2021-15:31:22][LOG] Device Infos Handler started
+[20/04/2021-15:31:22][LOG] Network Handler started
+[20/04/2021-15:31:22][INFO] ConnectÃ© Ã  internet
+[20/04/2021-15:31:22][LOG] FTP Handler started
+[20/04/2021-15:31:22][ERROR] FTP Handler -- [Errno 1] OpÃ©ration non permise
+[20/04/2021-15:31:22][LOG] Processus Handler started
+[20/04/2021-15:31:22][LOG] Mouse Handler started
+[20/04/2021-15:31:22][LOG] Screenshot Handler started
+[20/04/2021-15:31:22][LOG] Disks Handler started
+[20/04/2021-15:31:22][LOG] Keyboard Handler started
+[20/04/2021-15:31:22][LOG] Web Handler started
+[20/04/2021-15:31:22][LOG] AI Server Connection Handler started
+[20/04/2021-15:31:22][INFO] Reconnection au serveur
+
+[20/04/2021-15:32:38][LOG] STARTED
+
+[20/04/2021-15:32:38][LOG] Version : 0.0.1.1
+[20/04/2021-15:32:38][LOG] Shortcut created in '/home/thomas/Documents/AI/Devices App/Computer/ai_desktop_app.sh'
+[20/04/2021-15:32:38][LOG] --- DEVICE INFOS ---
+[20/04/2021-15:32:38][LOG] Device name : ubuntu
+[20/04/2021-15:32:38][LOG] Device ip : 192.168.1.14
+[20/04/2021-15:32:38][LOG] Device os : Linux
+[20/04/2021-15:32:38][LOG] Device release : 5.8.0-50-generic
+[20/04/2021-15:32:38][LOG] Device version : #56-Ubuntu SMP Mon Apr 12 17:18:36 UTC 2021
+[20/04/2021-15:32:38][LOG] Device architecture : x86_64
+[20/04/2021-15:32:38][LOG] Device processor architecture : x86_64
+[20/04/2021-15:32:38][LOG] Device connected user : thomas
+[20/04/2021-15:32:38][LOG] Device user connected since : 13:26:56 20/04/2021
+[20/04/2021-15:32:38][LOG] Device booted since : 13:25:23 20/04/2021
+[20/04/2021-15:32:38][LOG] --------------------
+[20/04/2021-15:32:39][INFO] Connexion au serveur : 1.1.1.1:33000
+[20/04/2021-15:32:44][Server Connection ERROR] Impossible de se connectÃ© au serveur : 1.1.1.1:33000 -- Error : timed out
+[20/04/2021-15:32:44][LOG] Device Infos Handler started
+[20/04/2021-15:32:44][LOG] Network Handler started
+[20/04/2021-15:32:44][INFO] ConnectÃ© Ã  internet
+[20/04/2021-15:32:44][LOG] FTP Handler started
+[20/04/2021-15:32:44][ERROR] FTP Handler -- [Errno 13] Permission non accordÃ©e
+[20/04/2021-15:32:44][LOG] Screenshot Handler started
+[20/04/2021-15:32:44][LOG] Processus Handler started
+[20/04/2021-15:32:44][LOG] Mouse Handler started
+[20/04/2021-15:32:44][LOG] Disks Handler started
+[20/04/2021-15:32:44][LOG] Keyboard Handler started
+[20/04/2021-15:32:44][LOG] Web Handler started
+[20/04/2021-15:32:44][LOG] AI Server Connection Handler started
+[20/04/2021-15:32:44][INFO] Reconnection au serveur
